@@ -3,8 +3,7 @@ Star-Wars-Attack-of-the-DOM
 
 #### [Full Demo](http://scotch.io/demos/star-wars-attack-of-the-dom)
 #### [Attack Your Site](http://scotch.io/apps/star-wars-attack-of-the-dom)
-#### [Simple Demo on CodePen](http://codepen.io)
-#### [Simple Demo on CSSDeck](http://cssdeck.com) 
+#### [Simple Demo on CodePen](http://codepen.io/ncerminara/pen/gwbKs)
 
 Star Wars: Attack of the DOM. A cool little demonstration of HTML5, CSS3, and JS combined to make lightsabers attack your webpages! Star Wars javascript physics.
 
@@ -25,7 +24,7 @@ This project is a fork of our [Pure CSS3 Stars Wars Lightsaber Checkboxes](https
 ## About
 This project is broken down into a few parts actually. There are:
 
- - Simple Demos on [CodePen.io](http://codepen.io/ncerminara) and [CSSDeck](http://cssdeck.com/user/ncerminara).
+ - Simple Demos on [CodePen.io](http://codepen.io/ncerminara).
  - [Full Demo](http://scotch.io/demos/star-wars-attack-of-the-dom) on scotch.io. This includes:
     - Star Wars Intro Text
     - Star Wars Scrolling Text
