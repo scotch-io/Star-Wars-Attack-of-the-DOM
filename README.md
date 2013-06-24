@@ -12,10 +12,13 @@ This project is a fork of our [Pure CSS3 Stars Wars Lightsaber Checkboxes](https
 
 ## A long, long time ago...
 
+##### Hacker News Demo
 ![Demo](http://scotch.io/images/demo-0.png "Demo")
 
+##### GitHub Demo
 ![Demo](http://scotch.io/images/demo-1.png "Demo")
 
+##### Amazon Demo
 ![Demo](http://scotch.io/images/demo-2.png "Demo")
 
 
