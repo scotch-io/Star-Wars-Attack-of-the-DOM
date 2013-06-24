@@ -4,6 +4,7 @@ Star-Wars-Attack-of-the-DOM
 #### [Full Demo](http://scotch.io/demos/star-wars-attack-of-the-dom)
 #### [Attack Your Site](http://scotch.io/apps/star-wars-attack-of-the-dom)
 #### [Simple Demo on CodePen](http://codepen.io/ncerminara/pen/gwbKs)
+#### [Read More](http://scotch.io/bar-talk/x/star-wars-attack-of-the-dom)
 
 Star Wars: Attack of the DOM. A cool little demonstration of HTML5, CSS3, and JS combined to make lightsabers attack your webpages! Star Wars javascript physics.
 
