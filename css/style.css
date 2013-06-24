@@ -1,0 +1,468 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@font-face {
+	font-family: 'FranklinGothicBookRegular';
+	src: url('fonts/frabk-webfont.eot');
+	src: url('fonts/frabk-webfont.eot?#iefix') format('eot'),
+	url('fonts/frabk-webfont.woff') format('woff'),
+	url('fonts/frabk-webfont.ttf') format('truetype'),
+	url('fonts/frabk-webfont.svg#webfontbRCxujAM') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ---------- Begin Reset ---------- */
+html, body 	{ margin: 0; padding: 0; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+
+a 			{ text-decoration: none; }
+
+body, div {
+	-webkit-transform : translateZ(0);
+	-o-transform : translateZ(0);
+	-moz-transform : translateZ(0);
+	-ms-transform : translateZ(0);
+	transform : translateZ(0);
+}
+
+input[type=checkbox], input[type=radio] {
+	-webkit-transform : translateZ(0) !important;
+	-o-transform : translateZ(0) !important;
+	-moz-transform : translateZ(0) !important;
+	-ms-transform : translateZ(0) !important;
+	transform : translateZ(0) !important;
+}
+/* ---------- End Reset ---------- */
+
+
+/* ---------- Begin Base ---------- */
+body { font-family: 'Open Sans', sans-serif; color: #FFF; }
+a { color: #00B4FF; }
+section { position: relative; }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.box-sizing {
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.fade-color {
+	-webkit-transition: color 100ms;
+	-moz-transition: color: 100ms;
+	-o-transition: color: 100ms;
+	-ms-transition: color: 100ms;
+	transition: color: 100ms; ;
+}
+
+h2 { font-size: 1.4em; }
+
+.center { text-align: center !important; }
+.caps { text-transform: uppercase !important; }
+/* ---------- End Base ---------- */
+
+/* ---------- Begin Nav ---------- */
+#navbar { display: block; z-index: 99999; position: relative; background: #444; padding: 10px; width: 100%; min-width: 100%; font-size: 13px; border-bottom: 1px solid #00B4FF; }
+#navbar a {
+	color: #FFF; margin: 0 10px;
+}
+#navbar i 								{ color: #00B4FF; margin-right:5px; }
+#navbar a:hover > i 					{ color: #FDE273; }
+	#navbar #url-scotch:hover 			{ color: #F9D3C8; }
+	#navbar #url-cssdeck:hover 			{ color: #B25452; }
+	#navbar #url-codepen:hover 			{ color: #B25452; }
+	#navbar #url-github:hover 			{ color: #B25452; }
+
+#social-stuff {
+	top: 50px;
+	left: 15px;
+	position: absolute;
+	z-index: 99999;
+}
+
+#social-stuff-inline 					{ margin:0 auto; text-align:center; width:65%; }
+#social-stuff-inline iframe 			{ display:block; float:left; text-align:center; }
+
+#fight-your-page {
+
+}
+
+#fight-your-page a {
+	background: #00B4FF;
+	border: 1px solid #000;
+	color: #FFF;
+	font-size: 30px;
+	right: 20px;
+	padding: 10px 30px;
+	position:absolute;
+	top:20px;
+	width: 20%;
+	text-align:center;
+	z-index:9999;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+#fight-your-page a:hover {
+
+}
+
+/* ---------- End Nav ---------- */
+
+
+/* ---------- Begin Galaxy ---------- */
+#galaxy { background: #090909; overflow: hidden;}
+
+.star {
+	position: absolute;
+	border-radius: 360px;
+	z-index: -1;
+	-webkit-animation-name: glow;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: glow;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-name: glow;
+	-o-animation-iteration-count: infinite;
+	-ms-animation-name: glow;
+	-ms-animation-iteration-count: infinite;
+	animation-name: glow;
+	animation-iteration-count: infinite;
+}
+
+.glow-slow {
+	-webkit-animation-duration: 7s;
+	-moz-animation-duration: 7s;
+	-o-animation-duration: 7s;
+	-ms-animation-duration: 7s;
+	animation-duration: 7s;
+}
+.glow-medium {
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+	-ms-animation-duration: 5s;
+	animation-duration: 5s;
+}
+.glow-fast {
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+
+.distance-close {
+	-moz-filter: blur(0.8px);
+	-webkit-filter: blur(0.8px);
+	-o-filter: blur(0.8px);
+	-ms-filter: blur(0.8px);
+	filter: blur(0.8px);
+}
+.distance-medium {
+	-moz-filter: blur(1.5px);
+	-webkit-filter: blur(1.5px);
+	-o-filter: blur(1.5px);
+	-ms-filter: blur(1.5px);
+	filter: blur(1.5px);
+}
+.distance-far {
+	-moz-filter: blur(4.5px);
+	-webkit-filter: blur(4.5px);
+	-o-filter: blur(4.5px);
+	-ms-filter: blur(4.5px);
+	filter: blur(4.5px);
+}
+/* ---------- End Galaxy ---------- */
+
+
+/* ---------- Begin Intro ---------- */
+#intro 						{ font-family: FranklinGothicBookRegular;}
+#long-long-time-ago h1 		{
+	width: 830px;
+	display: none;
+	margin: 0 auto;
+	color: #56bfe3;
+	font-size: 69px;
+	margin-top: 300px;
+}
+#logo {
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+	-webkit-animation: shrink 9s;
+}
+#welcome-text {
+	position: absolute;
+	display: none;
+	width: 18em;
+	height: 50em;
+	bottom: 0;
+	left: 50%;
+	margin-left: -9em;
+	font-size: 350%;
+	text-align: justify;
+	overflow: hidden;
+	-webkit-transform-origin: 50% 100%;	-moz-transform-origin: 50% 100%; -ms-transform-origin: 50% 100%; -o-transform-origin: 50% 100%; transform-origin: 50% 100%;
+	-webkit-transform: perspective(500px) rotateX(25deg); -moz-transform: perspective(500px) rotateX(25deg); -ms-transform: perspective(500px) rotateX(25deg); -o-transform: perspective(500px) rotateX(25deg); transform: perspective(500px) rotateX(25deg);
+}
+
+#scroll-text {
+	font-family: FranklinGothicBookRegular;
+	position: absolute;
+	top: 100%;
+	color: #ff6;
+	animation-delay: 5s;
+	-webkit-animation: scroll 75s linear 4s infinite;
+	-moz-animation: scroll 75s linear 4s infinite;
+	-ms-animation: scroll 75s linear 4s infinite;
+	-o-animation: scroll 75s linear 4s infinite;
+	animation: scroll 75s linear 4s infinite;
+}
+#scroll-text p {
+	text-align: justify;
+	margin: 0.8em 0;
+}
+/* ---------- End Intro ---------- */
+
+
+/* ---------- Begin Lightsaber-Box ---------- */
+.lightsaber {
+	width: 15px;
+	height: 310px;
+	display: none;
+	float: left;
+	margin-left: 30px;
+	z-index:9999;
+}
+
+.lightsaber img 			{ left:-150px; opacity:0; position:absolute; pointer-events:none; top:0; }
+
+/* yoda */
+#yoda 												{ height: 200px; margin-top: 110px; }
+#yoda input[type=checkbox]:checked ~ div.plasma 	{ height: 150px; z-index:9999; }
+#yoda input[type=checkbox]:checked ~ img 			{ opacity:0.2; }
+
+/* maul */
+#maul-container {
+	height: 550px;
+	width: 15px;
+	float: left;
+	display: none;
+	margin-left: 30px;
+}
+#maul-container .lightsaber 						{ display: block; margin-left: 0; }
+#maul-container .lightsaber 						{ float: none; }
+.maul 												{ top: 300px; }
+
+/* mickey */
+#mickey 						{  }
+#mickey label 					{ background: white; border-color: pink; }
+
+.mickey 						{ filter: blur(0px) !important; -moz-filter: blur(0px) !important; -webkit-filter: blur(0px) !important; -o-filter: blur(0px) !important; -ms-filter: blur(0px) !important; }
+
+.lightsaber input[type=checkbox]:checked ~ div.mickey5 {
+	height: 250px;
+	background: red;
+	width: 6px;
+	margin-left: 2px;
+}
+.lightsaber input[type=checkbox]:checked ~ div.mickey4 {
+	height: 200px;
+	z-index: 20;
+	background: orange;
+	width: 8px;
+	margin-left: 1px;
+}
+.lightsaber input[type=checkbox]:checked ~ div.mickey3 {
+	height: 150px;
+	z-index: 30;
+	background: yellow;
+	width: 8px;
+	margin-left: 1px;
+}
+.lightsaber input[type=checkbox]:checked ~ div.mickey2 {
+	height: 100px;
+	z-index: 40;
+	background: green;
+}
+.lightsaber input[type=checkbox]:checked ~ div.mickey1 {
+	height: 50px;
+	z-index: 50;
+	background: blue;
+	width: 12px;
+	margin-left: -1px;
+}
+
+#lightsabers-box {
+	height: 350px;
+	top: 0;
+	width: 300px;
+	margin: 150px auto 0;
+}
+#character-name {
+	font-size: 50px;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+	text-transform: uppercase;
+}
+
+#begin-wars {
+	background:#444;
+	border:1px solid #000;
+	bottom: 100px;
+	color:#FFF;
+	display:none;
+	font-size:35px;
+	left:35%;
+	padding:10px 30px;
+	position:absolute;
+	text-align:center;
+	width:30%;
+	border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+}
+
+#begin-wars:hover 		{ background: #00B4FF; }
+
+
+/* ---------- End Lightsaber-Box ---------- */
+
+
+
+
+/* ---------- Begin Enemies ---------- */
+
+.enemy { display: block; position: absolute; top: 0; left: 0;}
+
+h1.enemy { width: 200px; height: 43px; }
+h2.enemy { width: 145px; height: 35px; }
+h3.enemy { width: 110px; height: 30px; }
+h3.enemy { width: 90px; height: 25px; }
+input[type=radio].enemy { width: 15px; height: 15px; }
+input[type=checkbox].enemy { width: 15px; height: 15px; }
+input[type=text].enemy { height: 25px; width: 200px; background: white; border: grey 2px solid; }
+ul.enemy, ol.enemy { width: 190px; height: 70px; }
+
+#the-enemies {
+	position: absolute;
+	top: 0;
+	left: 100px;
+	display: none;
+}
+
+#input-cluster {
+	width: 150px;
+}
+
+#input-cluster .input {
+	float: left;
+}
+
+#form-guys {
+	position: absolute;
+	right: 200px;
+	bottom: 300px;
+	display: none;
+}
+
+#form-guys input {
+	position: relative !important;
+}
+
+/* ---------- End Enemies ---------- */
+
+
+
+
+
+
+
+/* ---------- Begin Keyframes  ---------- */
+@-webkit-keyframes glow {
+	from { -webkit-box-shadow: 0 0 5px #333; }
+	50% { -webkit-box-shadow: 0 0 8px #fff; }
+	to { -webkit-box-shadow: 0 0 5px #333; }
+}
+@-o-keyframes glow {
+	from { -webkit-box-shadow: 0 0 5px #333; }
+	50% { -webkit-box-shadow: 0 0 8px #fff; }
+	to { -webkit-box-shadow: 0 0 5px #333; }
+}
+@-moz-keyframes glow {
+	from { -webkit-box-shadow: 0 0 5px #333; }
+	50% { -webkit-box-shadow: 0 0 8px #fff; }
+	to { -webkit-box-shadow: 0 0 5px #333; }
+}
+@-ms-keyframes glow {
+	from { -webkit-box-shadow: 0 0 5px #333; }
+	50% { -webkit-box-shadow: 0 0 8px #fff; }
+	to { -webkit-box-shadow: 0 0 5px #333; }
+}
+@keyframes glow {
+	from { -webkit-box-shadow: 0 0 5px #333; }
+	50% { -webkit-box-shadow: 0 0 8px #fff; }
+	to { -webkit-box-shadow: 0 0 5px #333; }
+}
+
+@-webkit-keyframes shrink
+{
+	0% { width: 70%; }
+	100% { width: 0%; }
+}
+@-o-keyframes shrink
+{
+	0% { width: 70%; }
+	100% { width: 0%; }
+}
+@-moz-keyframes shrink
+{
+	0% { width: 70%; }
+	100% { width: 0%; }
+}
+@-ms-keyframes shrink
+{
+	0% { width: 70%; }
+	100% { width: 0%; }
+}
+@keyframes shrink
+{
+	0% { width: 70%; }
+	100% { width: 0%; }
+}
+
+@-webkit-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+@-moz-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+@-o-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+@-ms-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+/* ---------- End Keyframes  ---------- */
