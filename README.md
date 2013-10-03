@@ -1,6 +1,8 @@
 Star-Wars-Attack-of-the-DOM
 ===========================
 
+![Logo](http://scotch.io/wp-content/uploads/2013/05/attack-of-the-dom.jpg "Logo")
+
 #### [Full Demo](http://scotch.io/demos/star-wars-attack-of-the-dom)
 #### [Attack Your Site](http://scotch.io/apps/star-wars-attack-of-the-dom)
 #### [Simple Demo on CodePen](http://codepen.io/ncerminara/pen/gwbKs)
@@ -13,13 +15,10 @@ This project is a fork of our [Pure CSS3 Stars Wars Lightsaber Checkboxes](https
 ## A long, long time ago...
 
 ##### Hacker News Demo
-![Demo](http://scotch.io/images/demo-0.png "Demo")
-
-##### GitHub Demo
-![Demo](http://scotch.io/images/demo-1.png "Demo")
+![Demo](hhttp://scotch.io/wp-content/uploads/2013/06/demo-0-300x230.png "Demo")
 
 ##### Amazon Demo
-![Demo](http://scotch.io/images/demo-2.png "Demo")
+![Demo](http://scotch.io/wp-content/uploads/2013/06/demo-2-300x236.png "Demo")
 
 
 ## About
