@@ -50,5 +50,3 @@ Star Wars: Attack of the DOM uses a JavaScipt port of a popular 2D physics engin
 - Darth Maul (new)
 - Mickey Mouse?! (new)
 
-![New Lightsabers](http://scotch.io/images/new-sabers.png "New Lightsabers")
-
